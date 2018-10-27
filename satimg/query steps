@@ -1,0 +1,83 @@
+POST https://imagehunter-api.apollomapping.com/ajax/search
+cloudcover_max=100
+offnadir_max=100
+resolution_min=0
+resolution_max=2
+coords=[[-71.30126953125,42.53486817758702],[-70.7958984375,42.53486817758702],[-70.7958984375,42.204107493733176],[-71.30126953125,42.204107493733176]]
+seasonal=false
+startDate=1970-01-01
+endDate=2018-10-24
+satellites=["DM2","EB","FS2","GF1","GF2","GE1","IK","K2","K3","K3A","P1","QB","SP6","SKY","SUPER","TeL","TS","WV1","WV2","WV3","WV4"]
+
+cloudcover_max=100&offnadir_max=100&resolution_min=0&resolution_max=2&coords=%5B%5B-71.224365234375%2C42.4639928001706%5D%2C%5B-70.81787109375%2C42.4639928001706%5D%2C%5B-70.81787109375%2C42.204107493733176%5D%2C%5B-71.224365234375%2C42.204107493733176%5D%5D&seasonal=false&startDate=1970-01-01&endDate=2018-10-25&satellites=%5B%22DM2%22%2C%22EB%22%2C%22FS2%22%2C%22GF1%22%2C%22GF2%22%2C%22GE1%22%2C%22IK%22%2C%22K2%22%2C%22K3%22%2C%22K3A%22%2C%22P1%22%2C%22QB%22%2C%22SP6%22%2C%22SUPER%22%2C%22TeL%22%2C%22TS%22%2C%22WV1%22%2C%22WV2%22%2C%22WV3%22%2C%22WV4%22%5D"
+cloudcover_max=100&offnadir_max=100&resolution_min=0&resolution_max=2&coords=%5B%5B-71.30126953125%2C42.53486817758702%5D%2C%5B-70.7958984375%2C42.53486817758702%5D%2C%5B-70.7958984375%2C42.204107493733176%5D%2C%5B-71.30126953125%2C42.204107493733176%5D%5D&seasonal=False&startDate=2018-09-25&endDate=2018-10-25&satellites=%5B%27DM2%27%2C%27EB%27%2C%27FS2%27%2C%27GF1%27%2C%27GF2%27%2C%27GE1%27%2C%27IK%27%2C%27K2%27%2C%27K3%27%2C%27K3A%27%2C%27P1%27%2C%27QB%27%2C%27SP6%27%2C%27SKY%27%2C%27SUPER%27%2C%27TeL%27%2C%27TS%27%2C%27WV1%27%2C%27WV2%27%2C%27WV3%27%2C%27WV4%27%5D
+POST /ajax/search HTTP/1.1
+Host: imagehunter-api.apollomapping.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0
+Accept: */*
+Accept-Language: en-CA,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://imagehunter.apollomapping.com/
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 573
+Origin: https://imagehunter.apollomapping.com
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+
+{
+        "cloudcover_max":100,
+        "offnadir_max":100,
+        "resolution_min":0,
+        "resolution_max":2,
+        "coords":[[-71.224365234375,42.4639928001706],[-70.81787109375,42.4639928001706],[-70.81787109375,42.204107493733176],[-71.224365234375,42.204107493733176]],
+        "seasonal": False,
+        "startDate": "1970-01-01",
+        "endDate": "2018-10-25",
+        "satellites": ["DM2","EB","FS2","GF1","GF2","GE1","IK","K2","K3","K3A","P1","QB","SP6","SUPER","TeL","TS","WV1","WV2","WV3","WV4"]
+    }
+
+    {
+      "alt_productid": null,
+      "api": "phr",
+      "bottomright": {
+        "x": -71.03062013800357,
+        "y": 42.27319326069513
+      },
+      "cloud_cover_percent": "0.1",
+      "collection_date": "10-22-2018",
+      "collection_vehicle_short": "P1",
+      "color": true,
+      "data_type": null,
+      "imageBand": null,
+      "js_api": "20",
+      "js_date": "October 22, 2018",
+      "js_resolution": 0.5,
+      "max_pan_res": "N/A",
+      "min_pan_res": "N/A",
+      "objectid": "DS_PHR1A_201810221542415_FR1_PX_W072N42_1105_01804",
+      "offnadir": "7.5",
+      "order_id": "DS_PHR1A_201810221542415_FR1_PX_W072N42_1105_01804",
+      "preview_url": null,
+      "renderOrigin": null,
+      "resolution": "50 cm",
+      "sun_az": "165.7",
+      "sun_elev": "35.7",
+      "topleft": {
+        "x": -71.27561116367865,
+        "y": 42.09057969576605
+      }
+    },
+
+POST https://imagehunter-api.apollomapping.com/ajax/get_preview_image
+catid=DS_PHR1A_201810221542415_FR1_PX_W072N42_1105_01804
+satellite=pleiades
+satelliteShortName=P1
+
+{
+  "cached": true,
+  "path": "/static/img/preview_images/DS_PHR1A_201810221542415_FR1_PX_W072N42_1105_01804.png",
+  "results": true
+}
+
+GET https://imagehunter-api.apollomapping.com/static/img/preview_images/DS_PHR1A_201810221542415_FR1_PX_W072N42_1105_01804.png

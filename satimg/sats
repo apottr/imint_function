@@ -1,0 +1,245 @@
+
+"fullName": "WorldView-1",
+"databaseName": "digitalglobe",
+"shortName": "WV1",
+"resolution": .5,
+"companyName": "DigitalGlobe",
+"specs": "50-cm Pan"
+
+"fullName": "WorldView-2",
+"databaseName": "digitalglobe",
+"shortName": "WV2",
+"resolution": .5,
+"companyName": "DigitalGlobe",
+"specs": "40-cm 8-band"
+
+"fullName": "WorldView-3",
+"databaseName": "digitalglobe",
+"shortName": "WV3",
+"resolution": .3,
+"companyName": "DigitalGlobe",
+"specs": "30-cm 8-band"
+
+"fullName": "WorldView-3 SWIR",
+"databaseName": "digitalglobe",
+"shortName": "WV3_SWIR",
+"resolution": 7.5,
+"companyName": "DigitalGlobe",
+"specs": "7.5-m 8-band SWIR"
+
+"fullName": "WorldView-4",
+"databaseName": "digitalglobe",
+"shortName": "WV4",
+"resolution": .3,
+"companyName": "DigitalGlobe",
+"specs": "30-cm 4-band"
+
+"fullName": "Pl\xe9iades-1",
+"databaseName": "pleiades",
+"shortName": "P1",
+"resolution": .5,
+"companyName": "Airbus Defense and Space",
+"specs": "50-cm 4-band"
+
+"fullName": "QuickBird",
+"databaseName": "digitalglobe",
+"shortName": "QB",
+"resolution": .6,
+"companyName": "DigitalGlobe",
+"specs": "60-cm 4-band"
+
+"fullName": "GeoEye-1",
+"databaseName": "digitalglobe",
+"shortName": "GE1",
+"resolution": .5,
+"companyName": "DigitalGlobe",
+"specs": "40-cm 4-band"
+
+"fullName": "KOMPSAT-2",
+"databaseName": "kompsat",
+"shortName": "K2",
+"resolution": 1,
+"companyName": "SI Imaging Services",
+"specs": "1-m 4-band"
+
+"fullName": "KOMPSAT-3",
+"databaseName": "kompsat",
+"shortName": "K3",
+"resolution": .7,
+"companyName": "SI Imaging Services",
+"specs": "80-cm 4-band"
+
+"fullName": "KOMPSAT-3A",
+"databaseName": "kompsat",
+"shortName": "K3A",
+"resolution": .5,
+"companyName": "SI Imaging Services",
+"specs": "40-cm 4-band"
+
+"fullName": "EROS-B",
+"databaseName": "eros",
+"shortName": "EB",
+"resolution": .7,
+"companyName": "ImageSat International",
+"specs": "70-cm Pan"
+
+"fullName": "IKONOS",
+"databaseName": "ikonos",
+"shortName": "IK",
+"resolution": .8,
+"companyName": "DigitalGlobe",
+"specs": "80-cm 4-band"
+
+"fullName": "SPOT 1",
+"databaseName": "spot15",
+"shortName": "SP1",
+"resolution": 10,
+"companyName": "Airbus Defense and Space",
+"specs": "10-m 3-band"
+
+"fullName": "SPOT 2",
+"databaseName": "spot15",
+"shortName": "SP2",
+"resolution": 10,
+"companyName": "Airbus Defense and Space",
+"specs": "10-m 3-band"
+
+"fullName": "SPOT 3",
+"databaseName": "spot15",
+"shortName": "SP3",
+"resolution": 10,
+"companyName": "Airbus Defense and Space",
+"specs": "10-m 3-band"
+
+"fullName": "SPOT 4",
+"databaseName": "spot15",
+"shortName": "SP4",
+"resolution": 10,
+"companyName": "Airbus Defense and Space",
+"specs": "10-m 3-band"
+
+"fullName": "SPOT 5",
+"databaseName": "spot15",
+"shortName": "SP5",
+"resolution": 5,
+"companyName": "Airbus Defense and Space",
+"specs": "2.5-m 3-band"
+
+"fullName": "TripleSat",
+"databaseName": "triplesat",
+"shortName": "TS",
+"resolution": .8,
+"companyName": "21AT",
+"specs": "80-cm 4-band"
+
+"fullName": "SPOT 6/7",
+"databaseName": "spot6",
+"shortName": "SP6",
+"resolution": 1.5,
+"companyName": "Airbus Defense and Space",
+"specs": "1.5-m 4-band"
+
+"fullName": "ZiYuan-3",
+"databaseName": "ziyuan",
+"shortName": "ZY3",
+"resolution": 2.1,
+"companyName": "SpaceView",
+
+"stereo": !0,"specs": "2.1-m 4-band Mono; 2.5-m/3.5-m Pan Stereo"
+
+"fullName": "GaoFen-2",
+"databaseName": "gaofen2",
+"shortName": "GF2",
+"resolution": .8,
+"companyName": "SpaceView",
+"specs": "80-cm 4-band"
+
+"fullName": "GaoFen-1",
+"databaseName": "gaofen1",
+"shortName": "GF1",
+"resolution": 2,
+"companyName": "SpaceView",
+"specs": "2-m 4-band"
+
+"fullName": "SuperView-1",
+"databaseName": "scene",
+"shortName": "SUPER",
+"resolution": .5,
+"companyName": "SpaceView",
+"specs": "50-cm 4-band"
+
+"fullName": "Deimos-1",
+"databaseName": "scene",
+"shortName": "DM1",
+"resolution": 22,
+"useDirectUrl": !0,
+"companyName": "Deimos Imaging","specs": "22-m 3-band CIR only"
+
+"fullName": "Deimos-2",
+"databaseName": "URTHECAST",
+"shortName": "DM2",
+"resolution": .75,
+"useDirectUrl": !0,
+"companyName": "Deimos Imaging",
+"specs": "75-cm 4-band"
+
+"fullName": "Formosat-2",
+"databaseName": "formosat",
+"shortName": "FS2",
+"resolution": 2,
+"companyName": "NARLabs",
+"specs": "2-m 4-band"
+
+"fullName": "ALOS",
+"databaseName": "alos",
+"shortName": "ALOS",
+"resolution": 2.5,
+"companyName": "PASCO/NTT Data",
+
+"stereo": !0,"specs": "2.5-m Pan Mono/Stereo"
+
+"fullName": "TeLEOS-1",
+"databaseName": "scene",
+"shortName": "TeL",
+"resolution": 1,
+is
+"companyName": "AgilSpace",
+"specs": "1-m Pan"
+
+"fullName": "Landsat 4-5 TM",
+"databaseName": "scene",
+"shortName": "LS_TM",
+"resolution": 30,
+is
+"companyName": "USGS/NASA",
+"specs": "30-m 7-band"
+
+"fullName": "Landsat 4-5 MMS",
+"databaseName": "scene",
+"shortName": "LS4/5",
+"resolution": 60,
+is
+"companyName": "USGS/NASA",
+"specs": "57-m x 79-m 4-band"
+
+"fullName": "Landsat 1-3",
+"databaseName": "scene",
+"shortName": "LS-13",
+"resolution": 60,
+is
+"displayShortName": "LS1-3",
+"companyName": "USGS/NASA",
+"specs": "40-m 5-band"
+
+"fullName": "Landsat 7",
+"databaseName": "scene",
+"shortName": "LS7",
+"resolution": 15,
+"companyName": "USGS/NASA",
+"specs": "15-m 7-band"
+
+"fullName": "AW3D",
+"databaseName": "dem",
+"shortName": "AW3D",
+"resolution": 5,
+"companyName": "PASCO/NTT Data","specs": "5-m DEM"
