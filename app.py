@@ -1,20 +1,18 @@
-from flask import Flask,render_template,jsonify
-import sqlite3
+from flask import Flask,render_template,jsonify,request
+from satimg.satimg import get_satimg as satimg 
 app = Flask(__name__)
 
 @app.route("/")
 def page():
     return render_template("index.html")
 
-@app.route("/data")
+@app.route("/data", methods=["POST"])
 def data():
-    out = {"data": []}
-    conn = sqlite3.connect("cameras.db")
-    c = conn.cursor()
-    c.execute("select lat,lon from cameras")
-    for row in c.fetchall():
-        out["data"].append({"lat": row[0], "lon": row[1]})
-    return jsonify(out)
+    bbox = request.form["box"]
+    o = satimg(bbox)
+    return jsonify(o)
+
+
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")

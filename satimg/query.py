@@ -96,9 +96,15 @@ def grab_comsatimg(bbox):
     f = get_first(d)
     out = []
     for obj in f:
-        out.append(get_image(obj))
+        nw = [obj["topleft"]["x"],obj["topleft"]["y"]]
+        se = [obj["bottomright"]["x"],obj["bottomright"]["y"]]
+        out.append({
+            "footprint": f"POLYGON(({nw[0]} {nw[1]}, {se[0]} {nw[1]}, {se[0]} {se[1]}, {nw[0]} {se[1]}, {nw[0]} {nw[1]}))",
+            "img": get_image(obj)
+        })
     return out
 
 if __name__ == "__main__":
-    grab_comsatimg({"nw": [-71.30126953125,42.53486817758702], "se": [-70.7958984375,42.204107493733176]})
+    #print(grab_comsatimg({"nw": [-71.30126953125,42.53486817758702], "se": [-70.7958984375,42.204107493733176]}))
+    print(make_search({"nw": [-71.30126953125,42.53486817758702], "se": [-70.7958984375,42.204107493733176]}))
     

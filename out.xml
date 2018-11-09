@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom">
+<title>Sentinels Scientific Data Hub search results for: footprint:"Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))"</title>
+<subtitle>Displaying 0 to 9 of 4994 total results. Request done in 1.601 seconds.</subtitle>
+<updated>2018-10-28T03:57:33.479Z</updated>
+<author>
+<name>Sentinels Scientific Data Hub</name>
+</author>
+<id>https://scihub.copernicus.eu/dhus/search?q=footprint:"Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))"</id>
+<opensearch:totalResults>4994</opensearch:totalResults>
+<opensearch:startIndex>0</opensearch:startIndex>
+<opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+<opensearch:Query role="request" searchTerms="footprint:&quot;Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))&quot;" startPage="1"/>
+<link rel="self" type="application/atom+xml" href="https://scihub.copernicus.eu/dhus/search?q=footprint:&quot;Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))&quot;&amp;start=0&amp;rows=10"/>
+<link rel="first" type="application/atom+xml" href="https://scihub.copernicus.eu/dhus/search?q=footprint:&quot;Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))&quot;&amp;start=0&amp;rows=10"/>
+<link rel="next" type="application/atom+xml" href="https://scihub.copernicus.eu/dhus/search?q=footprint:&quot;Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))&quot;&amp;start=10&amp;rows=10"/>
+<link rel="last" type="application/atom+xml" href="https://scihub.copernicus.eu/dhus/search?q=footprint:&quot;Intersects(POLYGON((-71.30126953125 42.53486817758702, -70.7958984375 42.53486817758702, -70.7958984375 42.204107493733176, -71.30126953125 42.204107493733176, -71.30126953125 42.53486817758702)))&quot;&amp;start=4993&amp;rows=10"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_description.xml"/>
+<entry>
+<title>S2B_MSIL1C_20181027T153559_N0206_R111_T19TBG_20181027T203630</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('7f60fca0-56d0-4181-a19f-508fc82844f8')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('7f60fca0-56d0-4181-a19f-508fc82844f8')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('7f60fca0-56d0-4181-a19f-508fc82844f8')/Products('Quicklook')/$value"/>
+<id>7f60fca0-56d0-4181-a19f-508fc82844f8</id>
+<summary>Date: 2018-10-27T15:35:59.024Z, Instrument: MSI, Mode: , Satellite: Sentinel-2, Size: 310.64 MB</summary>
+<date name="datatakesensingstart">2018-10-27T15:35:59.024Z</date>
+<date name="beginposition">2018-10-27T15:35:59.024Z</date>
+<date name="endposition">2018-10-27T15:35:59.024Z</date>
+<date name="ingestiondate">2018-10-27T22:10:45.256Z</date>
+<int name="orbitnumber">8574</int>
+<int name="relativeorbitnumber">111</int>
+<double name="cloudcoverpercentage">52.8506</double>
+<str name="sensoroperationalmode">INS-NOBS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;41.420016662484635,-72.10760994925613 41.524262752596414,-72.07531984185637 41.6712129786839,-72.02919331414226 41.81829167569038,-71.98328386677018 41.9653087964373,-71.93701042962937 42.11234200773452,-71.89053224720071 42.25936592851092,-71.84382800812529 42.406399759575685,-71.79705893860597 42.4168422227667,-71.79374266771713 42.42936087235922,-71.31240724139609 41.441212166985935,-71.27696656733475 41.420016662484635,-72.10760994925613&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="footprint">MULTIPOLYGON (((-72.10760994925613 41.420016662484635, -71.27696656733475 41.441212166985935, -71.31240724139609 42.42936087235922, -71.79374266771713 42.4168422227667, -71.79705893860597 42.406399759575685, -71.84382800812529 42.25936592851092, -71.89053224720071 42.11234200773452, -71.93701042962937 41.9653087964373, -71.98328386677018 41.81829167569038, -72.02919331414226 41.6712129786839, -72.07531984185637 41.524262752596414, -72.10760994925613 41.420016662484635)))</str>
+<str name="tileid">19TBG</str>
+<str name="hv_order_tileid">TG19B</str>
+<str name="format">SAFE</str>
+<str name="processingbaseline">02.06</str>
+<str name="platformname">Sentinel-2</str>
+<str name="filename">S2B_MSIL1C_20181027T153559_N0206_R111_T19TBG_20181027T203630.SAFE</str>
+<str name="instrumentname">Multi-Spectral Instrument</str>
+<str name="instrumentshortname">MSI</str>
+<str name="size">310.64 MB</str>
+<str name="s2datatakeid">GS2B_20181027T153559_008574_N02.06</str>
+<str name="producttype">S2MSI1C</str>
+<str name="platformidentifier">2017-013A</str>
+<str name="orbitdirection">DESCENDING</str>
+<str name="platformserialidentifier">Sentinel-2B</str>
+<str name="processinglevel">Level-1C</str>
+<str name="identifier">S2B_MSIL1C_20181027T153559_N0206_R111_T19TBG_20181027T203630</str>
+<str name="uuid">7f60fca0-56d0-4181-a19f-508fc82844f8</str>
+</entry>
+<entry>
+<title>S2B_MSIL1C_20181027T153559_N0206_R111_T18TYM_20181027T203630</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('466c74c0-d161-4e02-ade8-befa7eb96eac')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('466c74c0-d161-4e02-ade8-befa7eb96eac')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('466c74c0-d161-4e02-ade8-befa7eb96eac')/Products('Quicklook')/$value"/>
+<id>466c74c0-d161-4e02-ade8-befa7eb96eac</id>
+<summary>Date: 2018-10-27T15:35:59.024Z, Instrument: MSI, Mode: , Satellite: Sentinel-2, Size: 324.94 MB</summary>
+<date name="datatakesensingstart">2018-10-27T15:35:59.024Z</date>
+<date name="beginposition">2018-10-27T15:35:59.024Z</date>
+<date name="endposition">2018-10-27T15:35:59.024Z</date>
+<date name="ingestiondate">2018-10-27T22:10:39.747Z</date>
+<int name="orbitnumber">8574</int>
+<int name="relativeorbitnumber">111</int>
+<double name="cloudcoverpercentage">55.1694</double>
+<str name="sensoroperationalmode">INS-NOBS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;41.425563517642324,-72.1058918172036 41.524262752596414,-72.07531984185637 41.6712129786839,-72.02919331414226 41.81829167569038,-71.98328386677018 41.9653087964373,-71.93701042962937 42.11234200773452,-71.89053224720071 42.25936592851092,-71.84382800812529 42.406032569483706,-71.7971757358003 42.39088066238852,-71.23686356729512 41.40403474612011,-71.2944377014587 41.425563517642324,-72.1058918172036&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="footprint">MULTIPOLYGON (((-72.1058918172036 41.425563517642324, -71.2944377014587 41.40403474612011, -71.23686356729512 42.39088066238852, -71.7971757358003 42.406032569483706, -71.84382800812529 42.25936592851092, -71.89053224720071 42.11234200773452, -71.93701042962937 41.9653087964373, -71.98328386677018 41.81829167569038, -72.02919331414226 41.6712129786839, -72.07531984185637 41.524262752596414, -72.1058918172036 41.425563517642324)))</str>
+<str name="tileid">18TYM</str>
+<str name="hv_order_tileid">TM18Y</str>
+<str name="format">SAFE</str>
+<str name="processingbaseline">02.06</str>
+<str name="platformname">Sentinel-2</str>
+<str name="filename">S2B_MSIL1C_20181027T153559_N0206_R111_T18TYM_20181027T203630.SAFE</str>
+<str name="instrumentname">Multi-Spectral Instrument</str>
+<str name="instrumentshortname">MSI</str>
+<str name="size">324.94 MB</str>
+<str name="s2datatakeid">GS2B_20181027T153559_008574_N02.06</str>
+<str name="producttype">S2MSI1C</str>
+<str name="platformidentifier">2017-013A</str>
+<str name="orbitdirection">DESCENDING</str>
+<str name="platformserialidentifier">Sentinel-2B</str>
+<str name="processinglevel">Level-1C</str>
+<str name="identifier">S2B_MSIL1C_20181027T153559_N0206_R111_T18TYM_20181027T203630</str>
+<str name="uuid">466c74c0-d161-4e02-ade8-befa7eb96eac</str>
+</entry>
+<entry>
+<title>S2B_MSIL1C_20181027T153559_N0206_R111_T19TCG_20181027T203630</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('1db28786-e09c-4ef0-b49c-0cf3e761b8cd')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('1db28786-e09c-4ef0-b49c-0cf3e761b8cd')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('1db28786-e09c-4ef0-b49c-0cf3e761b8cd')/Products('Quicklook')/$value"/>
+<id>1db28786-e09c-4ef0-b49c-0cf3e761b8cd</id>
+<summary>Date: 2018-10-27T15:35:59.024Z, Instrument: MSI, Mode: , Satellite: Sentinel-2, Size: 599.60 MB</summary>
+<date name="datatakesensingstart">2018-10-27T15:35:59.024Z</date>
+<date name="beginposition">2018-10-27T15:35:59.024Z</date>
+<date name="endposition">2018-10-27T15:35:59.024Z</date>
+<date name="ingestiondate">2018-10-27T22:10:33.462Z</date>
+<int name="orbitnumber">8574</int>
+<int name="relativeorbitnumber">111</int>
+<double name="cloudcoverpercentage">92.4991</double>
+<str name="sensoroperationalmode">INS-NOBS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;42.42690168750588,-71.43119626719711 42.44744302996699,-70.09685168418682 41.458681613653354,-70.08002716016999 41.438836285507165,-71.39393916355972 42.42690168750588,-71.43119626719711&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="footprint">MULTIPOLYGON (((-71.43119626719711 42.42690168750588, -71.39393916355972 41.438836285507165, -70.08002716016999 41.458681613653354, -70.09685168418682 42.44744302996699, -71.43119626719711 42.42690168750588)))</str>
+<str name="tileid">19TCG</str>
+<str name="hv_order_tileid">TG19C</str>
+<str name="format">SAFE</str>
+<str name="processingbaseline">02.06</str>
+<str name="platformname">Sentinel-2</str>
+<str name="filename">S2B_MSIL1C_20181027T153559_N0206_R111_T19TCG_20181027T203630.SAFE</str>
+<str name="instrumentname">Multi-Spectral Instrument</str>
+<str name="instrumentshortname">MSI</str>
+<str name="size">599.60 MB</str>
+<str name="s2datatakeid">GS2B_20181027T153559_008574_N02.06</str>
+<str name="producttype">S2MSI1C</str>
+<str name="platformidentifier">2017-013A</str>
+<str name="orbitdirection">DESCENDING</str>
+<str name="platformserialidentifier">Sentinel-2B</str>
+<str name="processinglevel">Level-1C</str>
+<str name="identifier">S2B_MSIL1C_20181027T153559_N0206_R111_T19TCG_20181027T203630</str>
+<str name="uuid">1db28786-e09c-4ef0-b49c-0cf3e761b8cd</str>
+</entry>
+<entry>
+<title>S2B_MSIL1C_20181027T153559_N0206_R111_T18TYN_20181027T203630</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('b03d9d1a-ef86-4743-95f1-7aaea38a2462')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('b03d9d1a-ef86-4743-95f1-7aaea38a2462')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('b03d9d1a-ef86-4743-95f1-7aaea38a2462')/Products('Quicklook')/$value"/>
+<id>b03d9d1a-ef86-4743-95f1-7aaea38a2462</id>
+<summary>Date: 2018-10-27T15:35:59.024Z, Instrument: MSI, Mode: , Satellite: Sentinel-2, Size: 202.00 MB</summary>
+<date name="datatakesensingstart">2018-10-27T15:35:59.024Z</date>
+<date name="beginposition">2018-10-27T15:35:59.024Z</date>
+<date name="endposition">2018-10-27T15:35:59.024Z</date>
+<date name="ingestiondate">2018-10-27T22:10:09.294Z</date>
+<int name="orbitnumber">8574</int>
+<int name="relativeorbitnumber">111</int>
+<double name="cloudcoverpercentage">41.4155</double>
+<str name="sensoroperationalmode">INS-NOBS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;42.31818988981065,-71.82511706306246 42.406399759575685,-71.79705893860597 42.553420855188406,-71.75036863474676 42.70033228856127,-71.70342320419742 42.84728444762676,-71.65661340391105 42.994025092943765,-71.60886933972924 43.14100735373109,-71.56177883522383 43.28791830351156,-71.51437377290975 43.298134080918764,-71.51105263875299 43.28908179915951,-71.18187629631363 42.30245161555175,-71.2421415546785 42.31818988981065,-71.82511706306246&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="footprint">MULTIPOLYGON (((-71.82511706306246 42.31818988981065, -71.2421415546785 42.30245161555175, -71.18187629631363 43.28908179915951, -71.51105263875299 43.298134080918764, -71.51437377290975 43.28791830351156, -71.56177883522383 43.14100735373109, -71.60886933972924 42.994025092943765, -71.65661340391105 42.84728444762676, -71.70342320419742 42.70033228856127, -71.75036863474676 42.553420855188406, -71.79705893860597 42.406399759575685, -71.82511706306246 42.31818988981065)))</str>
+<str name="tileid">18TYN</str>
+<str name="hv_order_tileid">TN18Y</str>
+<str name="format">SAFE</str>
+<str name="processingbaseline">02.06</str>
+<str name="platformname">Sentinel-2</str>
+<str name="filename">S2B_MSIL1C_20181027T153559_N0206_R111_T18TYN_20181027T203630.SAFE</str>
+<str name="instrumentname">Multi-Spectral Instrument</str>
+<str name="instrumentshortname">MSI</str>
+<str name="size">202.00 MB</str>
+<str name="s2datatakeid">GS2B_20181027T153559_008574_N02.06</str>
+<str name="producttype">S2MSI1C</str>
+<str name="platformidentifier">2017-013A</str>
+<str name="orbitdirection">DESCENDING</str>
+<str name="platformserialidentifier">Sentinel-2B</str>
+<str name="processinglevel">Level-1C</str>
+<str name="identifier">S2B_MSIL1C_20181027T153559_N0206_R111_T18TYN_20181027T203630</str>
+<str name="uuid">b03d9d1a-ef86-4743-95f1-7aaea38a2462</str>
+</entry>
+<entry>
+<title>S2B_MSIL1C_20181027T153559_N0206_R111_T19TCH_20181027T203630</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('b7287fbe-ac8c-4e77-aaf6-2ca155dac7d3')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('b7287fbe-ac8c-4e77-aaf6-2ca155dac7d3')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('b7287fbe-ac8c-4e77-aaf6-2ca155dac7d3')/Products('Quicklook')/$value"/>
+<id>b7287fbe-ac8c-4e77-aaf6-2ca155dac7d3</id>
+<summary>Date: 2018-10-27T15:35:59.024Z, Instrument: MSI, Mode: , Satellite: Sentinel-2, Size: 577.29 MB</summary>
+<date name="datatakesensingstart">2018-10-27T15:35:59.024Z</date>
+<date name="beginposition">2018-10-27T15:35:59.024Z</date>
+<date name="endposition">2018-10-27T15:35:59.024Z</date>
+<date name="ingestiondate">2018-10-27T22:09:44.762Z</date>
+<int name="orbitnumber">8574</int>
+<int name="relativeorbitnumber">111</int>
+<double name="cloudcoverpercentage">99.4418</double>
+<str name="sensoroperationalmode">INS-NOBS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;43.32624633586568,-71.46678204877877 43.34744038882544,-70.1129221649777 42.35883991770658,-70.09530924716697 42.33836182515417,-71.42778068203101 43.32624633586568,-71.46678204877877&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="footprint">MULTIPOLYGON (((-71.46678204877877 43.32624633586568, -71.42778068203101 42.33836182515417, -70.09530924716697 42.35883991770658, -70.1129221649777 43.34744038882544, -71.46678204877877 43.32624633586568)))</str>
+<str name="tileid">19TCH</str>
+<str name="hv_order_tileid">TH19C</str>
+<str name="format">SAFE</str>
+<str name="processingbaseline">02.06</str>
+<str name="platformname">Sentinel-2</str>
+<str name="filename">S2B_MSIL1C_20181027T153559_N0206_R111_T19TCH_20181027T203630.SAFE</str>
+<str name="instrumentname">Multi-Spectral Instrument</str>
+<str name="instrumentshortname">MSI</str>
+<str name="size">577.29 MB</str>
+<str name="s2datatakeid">GS2B_20181027T153559_008574_N02.06</str>
+<str name="producttype">S2MSI1C</str>
+<str name="platformidentifier">2017-013A</str>
+<str name="orbitdirection">DESCENDING</str>
+<str name="platformserialidentifier">Sentinel-2B</str>
+<str name="processinglevel">Level-1C</str>
+<str name="identifier">S2B_MSIL1C_20181027T153559_N0206_R111_T19TCH_20181027T203630</str>
+<str name="uuid">b7287fbe-ac8c-4e77-aaf6-2ca155dac7d3</str>
+</entry>
+<entry>
+<title>S3A_OL_2_LFR____20181026T151215_20181026T151515_20181027T193442_0180_037_182_2160_LN1_O_NT_002</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('5f162168-05fc-48b5-83ac-dc2eceb74ff5')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('5f162168-05fc-48b5-83ac-dc2eceb74ff5')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('5f162168-05fc-48b5-83ac-dc2eceb74ff5')/Products('Quicklook')/$value"/>
+<id>5f162168-05fc-48b5-83ac-dc2eceb74ff5</id>
+<summary>Date: 2018-10-26T15:12:15.286Z, Instrument: OLCI, Mode: , Satellite: Sentinel-3, Size: 125.39 MB</summary>
+<date name="creationdate">2018-10-27T19:34:42Z</date>
+<date name="beginposition">2018-10-26T15:12:15.286Z</date>
+<date name="endposition">2018-10-26T15:15:15.286Z</date>
+<date name="ingestiondate">2018-10-27T19:58:28.44Z</date>
+<int name="orbitnumber">14015</int>
+<int name="relativeorbitnumber">182</int>
+<double name="cloudcoverpercentage">63.0</double>
+<str name="ecmwf">ANALYSIS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;41.9737,-82.8683 41.8964,-82.0368 41.8141,-81.2116 41.7261,-80.3903 41.6315,-79.5652 41.532,-78.7507 41.4263,-77.9354 41.3154,-77.1231 41.1983,-76.3151 41.0751,-75.5064 40.9508,-74.7012 40.8171,-73.9047 40.6795,-73.1048 40.5323,-72.3119 40.3821,-71.5219 40.2236,-70.7348 40.0635,-69.9489 39.8974,-69.1702 39.7256,-68.3931 39.5491,-67.6225 42.1466,-66.5743 44.7391,-65.4414 47.3215,-64.211 49.8896,-62.8643 50.0947,-63.7745 50.2924,-64.6919 50.4831,-65.6189 50.6643,-66.5492 50.8422,-67.4867 51.0103,-68.434 51.1731,-69.3877 51.3224,-70.3425 51.4679,-71.3116 51.6001,-72.2842 51.7291,-73.264 51.8496,-74.2466 51.9609,-75.232 52.0646,-76.2247 52.1604,-77.2254 52.2472,-78.2262 52.3259,-79.2363 52.3957,-80.2455 52.457,-81.2498 49.8372,-81.6457 47.2157,-82.0472 44.5928,-82.4553 41.9737,-82.8683&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="format">SAFE</str>
+<str name="instrumentshortname">OLCI</str>
+<str name="sensoroperationalmode">Earth Observation</str>
+<str name="instrumentname">Ocean Land Colour Instrument</str>
+<str name="footprint">MULTIPOLYGON (((-82.8683 41.9737, -82.0368 41.8964, -81.2116 41.8141, -80.3903 41.7261, -79.5652 41.6315, -78.7507 41.532, -77.9354 41.4263, -77.1231 41.3154, -76.3151 41.1983, -75.5064 41.0751, -74.7012 40.9508, -73.9047 40.8171, -73.1048 40.6795, -72.3119 40.5323, -71.5219 40.3821, -70.7348 40.2236, -69.9489 40.0635, -69.1702 39.8974, -68.3931 39.7256, -67.6225 39.5491, -66.5743 42.1466, -65.4414 44.7391, -64.211 47.3215, -62.8643 49.8896, -63.7745 50.0947, -64.6919 50.2924, -65.6189 50.4831, -66.5492 50.6643, -67.4867 50.8422, -68.434 51.0103, -69.3877 51.1731, -70.3425 51.3224, -71.3116 51.4679, -72.2842 51.6001, -73.264 51.7291, -74.2466 51.8496, -75.232 51.9609, -76.2247 52.0646, -77.2254 52.1604, -78.2262 52.2472, -79.2363 52.3259, -80.2455 52.3957, -81.2498 52.457, -81.6457 49.8372, -82.0472 47.2157, -82.4553 44.5928, -82.8683 41.9737)))</str>
+<str name="mode">EO</str>
+<str name="platformidentifier">2016-011A</str>
+<str name="orbitdirection">descending</str>
+<str name="pdualongtrackcoord">2160</str>
+<str name="pduduration">180</str>
+<str name="passnumber">28030</str>
+<str name="passdirection">descending</str>
+<str name="procfacilityname">Land OLCI Processing and Archiving Centre [LN1]</str>
+<str name="procfacilityorg">European Space Agency</str>
+<str name="processinglevel">2</str>
+<str name="processingname">Data Processing</str>
+<str name="productlevel">L2</str>
+<str name="producttype">OL_2_LFR___</str>
+<str name="relorbitdir">descending</str>
+<str name="relpassnumber">364</str>
+<str name="relpassdirection">descending</str>
+<str name="platformname">Sentinel-3</str>
+<str name="size">125.39 MB</str>
+<str name="timeliness">Non Time Critical</str>
+<str name="filename">S3A_OL_2_LFR____20181026T151215_20181026T151515_20181027T193442_0180_037_182_2160_LN1_O_NT_002.SEN3</str>
+<str name="onlinequalitycheck">PASSED</str>
+<str name="identifier">S3A_OL_2_LFR____20181026T151215_20181026T151515_20181027T193442_0180_037_182_2160_LN1_O_NT_002</str>
+<str name="uuid">5f162168-05fc-48b5-83ac-dc2eceb74ff5</str>
+</entry>
+<entry>
+<title>S3A_OL_1_EFR____20181026T151215_20181026T151515_20181027T191458_0180_037_182_2160_LN1_O_NT_002</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('8bbc1093-9183-4121-afef-7e4096ddc173')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('8bbc1093-9183-4121-afef-7e4096ddc173')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('8bbc1093-9183-4121-afef-7e4096ddc173')/Products('Quicklook')/$value"/>
+<id>8bbc1093-9183-4121-afef-7e4096ddc173</id>
+<summary>Date: 2018-10-26T15:12:15.286Z, Instrument: OLCI, Mode: , Satellite: Sentinel-3, Size: 668.95 MB</summary>
+<date name="creationdate">2018-10-27T19:14:58Z</date>
+<date name="beginposition">2018-10-26T15:12:15.286Z</date>
+<date name="endposition">2018-10-26T15:15:15.286Z</date>
+<date name="ingestiondate">2018-10-27T19:53:07.085Z</date>
+<int name="orbitnumber">14015</int>
+<int name="relativeorbitnumber">182</int>
+<str name="ecmwf">ANALYSIS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;41.9737,-82.8683 41.8964,-82.0368 41.8141,-81.2116 41.7261,-80.3903 41.6315,-79.5652 41.532,-78.7507 41.4263,-77.9354 41.3154,-77.1231 41.1983,-76.3151 41.0751,-75.5064 40.9508,-74.7012 40.8171,-73.9047 40.6795,-73.1048 40.5323,-72.3119 40.3821,-71.5219 40.2236,-70.7348 40.0635,-69.9489 39.8974,-69.1702 39.7256,-68.3931 39.5491,-67.6225 42.1466,-66.5743 44.7391,-65.4414 47.3215,-64.211 49.8896,-62.8643 50.0947,-63.7745 50.2924,-64.6919 50.4831,-65.6189 50.6643,-66.5492 50.8422,-67.4867 51.0103,-68.434 51.1731,-69.3877 51.3224,-70.3425 51.4679,-71.3116 51.6001,-72.2842 51.7291,-73.264 51.8496,-74.2466 51.9609,-75.232 52.0646,-76.2247 52.1604,-77.2254 52.2472,-78.2262 52.3259,-79.2363 52.3957,-80.2455 52.457,-81.2498 49.8372,-81.6457 47.2157,-82.0472 44.5928,-82.4553 41.9737,-82.8683&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="format">SAFE</str>
+<str name="instrumentshortname">OLCI</str>
+<str name="sensoroperationalmode">Earth Observation</str>
+<str name="instrumentname">Ocean Land Colour Instrument</str>
+<str name="footprint">MULTIPOLYGON (((-82.8683 41.9737, -82.0368 41.8964, -81.2116 41.8141, -80.3903 41.7261, -79.5652 41.6315, -78.7507 41.532, -77.9354 41.4263, -77.1231 41.3154, -76.3151 41.1983, -75.5064 41.0751, -74.7012 40.9508, -73.9047 40.8171, -73.1048 40.6795, -72.3119 40.5323, -71.5219 40.3821, -70.7348 40.2236, -69.9489 40.0635, -69.1702 39.8974, -68.3931 39.7256, -67.6225 39.5491, -66.5743 42.1466, -65.4414 44.7391, -64.211 47.3215, -62.8643 49.8896, -63.7745 50.0947, -64.6919 50.2924, -65.6189 50.4831, -66.5492 50.6643, -67.4867 50.8422, -68.434 51.0103, -69.3877 51.1731, -70.3425 51.3224, -71.3116 51.4679, -72.2842 51.6001, -73.264 51.7291, -74.2466 51.8496, -75.232 51.9609, -76.2247 52.0646, -77.2254 52.1604, -78.2262 52.2472, -79.2363 52.3259, -80.2455 52.3957, -81.2498 52.457, -81.6457 49.8372, -82.0472 47.2157, -82.4553 44.5928, -82.8683 41.9737)))</str>
+<str name="mode">EO</str>
+<str name="platformidentifier">2016-011A</str>
+<str name="orbitdirection">descending</str>
+<str name="pdualongtrackcoord">2160</str>
+<str name="pduduration">180</str>
+<str name="passnumber">28030</str>
+<str name="passdirection">descending</str>
+<str name="procfacilityname">Land OLCI Processing and Archiving Centre [LN1]</str>
+<str name="procfacilityorg">European Space Agency</str>
+<str name="processinglevel">1</str>
+<str name="processingname">Data Processing</str>
+<str name="productlevel">L1</str>
+<str name="producttype">OL_1_EFR___</str>
+<str name="relorbitdir">descending</str>
+<str name="relpassnumber">364</str>
+<str name="relpassdirection">descending</str>
+<str name="platformname">Sentinel-3</str>
+<str name="size">668.95 MB</str>
+<str name="timeliness">Non Time Critical</str>
+<str name="filename">S3A_OL_1_EFR____20181026T151215_20181026T151515_20181027T191458_0180_037_182_2160_LN1_O_NT_002.SEN3</str>
+<str name="onlinequalitycheck">PASSED</str>
+<str name="identifier">S3A_OL_1_EFR____20181026T151215_20181026T151515_20181027T191458_0180_037_182_2160_LN1_O_NT_002</str>
+<str name="uuid">8bbc1093-9183-4121-afef-7e4096ddc173</str>
+</entry>
+<entry>
+<title>S3A_OL_2_LRR____20181026T150716_20181026T155133_20181027T191551_2657_037_182______LN1_O_NT_002</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('c4a17eb6-20e5-4d07-98c3-73538a3f336e')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('c4a17eb6-20e5-4d07-98c3-73538a3f336e')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('c4a17eb6-20e5-4d07-98c3-73538a3f336e')/Products('Quicklook')/$value"/>
+<id>c4a17eb6-20e5-4d07-98c3-73538a3f336e</id>
+<summary>Date: 2018-10-26T15:07:15.759Z, Instrument: OLCI, Mode: , Satellite: Sentinel-3, Size: 158.18 MB</summary>
+<date name="creationdate">2018-10-27T19:15:51Z</date>
+<date name="beginposition">2018-10-26T15:07:15.759Z</date>
+<date name="endposition">2018-10-26T15:51:33.258Z</date>
+<date name="ingestiondate">2018-10-27T19:34:26.554Z</date>
+<int name="orbitnumber">14015</int>
+<int name="relativeorbitnumber">182</int>
+<double name="cloudcoverpercentage">69.0</double>
+<str name="ecmwf">ANALYSIS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;-72.6158,-173.044 -73.2349,-172.908 -73.8518,-172.72 -74.4686,-172.517 -75.0851,-172.299 -75.7014,-172.061 -76.3174,-171.803 -76.9313,-171.525 -77.5468,-171.216 -78.1619,-170.875 -78.7786,-170.473 -79.3924,-170.053 -80.0056,-169.581 -80.6158,-169.07 -81.2274,-168.465 -81.8378,-167.771 -82.4479,-166.964 -83.0551,-166.016 -83.66,-164.887 -84.2598,-163.415 -83.7739,-150.867 -82.7906,-137.838 -81.5395,-128.224 -80.1211,-121.157 -78.5986,-115.857 -77.0079,-111.773 -75.3709,-108.538 -73.7014,-105.911 -72.0089,-103.731 -70.2983,-101.886 -68.5746,-100.298 -66.8395,-98.9112 -65.0972,-97.6833 -63.3476,-96.5839 -61.5901,-95.5916 -59.8299,-94.6842 -58.0644,-93.8505 -56.2957,-93.0772 -54.5229,-92.3561 -52.7468,-91.6798 -50.9704,-91.0398 -49.1893,-90.4344 -47.4058,-89.8578 -45.6215,-89.3052 -43.8346,-88.7749 -42.0461,-88.2641 -40.256,-87.7695 -38.4631,-87.2909 -36.6711,-86.8243 -34.8767,-86.3695 -33.079,-85.9261 -31.2822,-85.4906 -29.4839,-85.0631 -27.6844,-84.6426 -25.8835,-84.2283 -24.0817,-83.8191 -22.2792,-83.4143 -20.476,-83.0132 -18.6715,-82.6153 -16.8666,-82.2196 -15.0612,-81.8259 -13.2553,-81.4332 -11.448,-81.0418 -9.64134,-80.6501 -7.83429,-80.2581 -6.02675,-79.8653 -4.21893,-79.4712 -2.41112,-79.0752 -0.603252,-78.677 1.20434,-78.2756 3.01205,-77.8709 4.81933,-77.4623 6.6255,-77.0486 8.43203,-76.6303 10.2385,-76.2059 12.0439,-75.7754 13.8465,-75.3365 15.6508,-74.8906 17.4537,-74.4361 19.2543,-73.971 21.0545,-73.4959 22.8518,-73.0083 24.6493,-72.5083 26.4451,-71.9943 28.2374,-71.4643 30.0279,-70.9168 31.8171,-70.351 33.603,-69.7644 35.3866,-69.1545 37.1667,-68.5193 38.9437,-67.856 40.7165,-67.161 42.4856,-66.4315 44.2497,-65.6628 46.0086,-64.8499 47.7634,-63.989 49.5105,-63.072 51.2503,-62.092 52.983,-61.041 54.7055,-59.9078 56.4172,-58.6805 58.1182,-57.3455 59.8044,-55.8844 61.4738,-54.2765 63.1239,-52.4957 64.75,-50.5114 66.3485,-48.2848 66.6526,-49.6419 66.9528,-51.0122 67.2423,-52.423 67.5184,-53.8614 67.7817,-55.3354 68.0313,-56.842 68.2691,-58.3781 68.49,-59.948 68.6961,-61.5477 68.8833,-63.1805 69.0581,-64.8359 69.2166,-66.5168 69.3579,-68.2139 69.482,-69.9264 69.5904,-71.6774 69.6805,-73.4336 69.7534,-75.216 69.8082,-77.0084 69.8556,-78.7976 68.0798,-79.0285 66.3035,-79.266 64.5262,-79.5081 62.7488,-79.7548 60.9705,-80.0053 59.1913,-80.2587 57.412,-80.5172 55.6318,-80.7783 53.8506,-81.0414 52.0693,-81.3083 50.2869,-81.5778 48.5034,-81.8487 46.7197,-82.1242 44.9352,-82.4018 43.1501,-82.6818 41.3642,-82.9653 39.5774,-83.2512 37.7903,-83.5402 36.002,-83.8324 34.2136,-84.1276 32.4242,-84.426 30.6347,-84.7286 28.8447,-85.0346 27.0538,-85.3436 25.2624,-85.6568 23.4714,-85.975 21.6793,-86.2966 19.8875,-86.6234 18.0951,-86.954 16.3025,-87.2898 14.5108,-87.6322 12.718,-87.9789 10.9255,-88.3316 9.13382,-88.6903 7.34217,-89.0564 5.55067,-89.4288 3.75989,-89.8084 1.96984,-90.196 0.18052,-90.5914 -1.60813,-90.9959 -3.39578,-91.4095 -5.18219,-91.833 -6.9671,-92.267 -8.7507,-92.7121 -10.5331,-93.1687 -12.3134,-93.6386 -14.0917,-94.1219 -15.8679,-94.6198 -17.642,-95.1332 -19.4132,-95.6636 -21.1815,-96.2121 -22.947,-96.78 -24.709,-97.3688 -26.4673,-97.9807 -28.2215,-98.6173 -29.9711,-99.2807 -31.717,-99.972 -33.4564,-100.696 -35.19,-101.455 -36.9184,-102.251 -38.6388,-103.09 -40.352,-103.973 -42.0568,-104.907 -43.7518,-105.897 -45.4372,-106.948 -47.1108,-108.068 -48.7701,-109.265 -50.4165,-110.546 -52.0459,-111.922 -53.6565,-113.406 -55.2464,-115.009 -56.8117,-116.749 -58.3508,-118.641 -59.8566,-120.708 -61.3263,-122.971 -62.7542,-125.455 -64.1319,-128.19 -65.4524,-131.206 -66.7052,-134.536 -67.8796,-138.213 -68.9619,-142.266 -69.9374,-146.717 -70.7897,-151.575 -71.5028,-156.831 -72.0589,-162.447 -72.4437,-168.355 -72.6158,-173.044&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="format">SAFE</str>
+<str name="instrumentshortname">OLCI</str>
+<str name="sensoroperationalmode">Earth Observation</str>
+<str name="instrumentname">Ocean Land Colour Instrument</str>
+<str name="footprint">MULTIPOLYGON (((-173.044 -72.6158, -172.908 -73.2349, -172.72 -73.8518, -172.517 -74.4686, -172.299 -75.0851, -172.061 -75.7014, -171.803 -76.3174, -171.525 -76.9313, -171.216 -77.5468, -170.875 -78.1619, -170.473 -78.7786, -170.053 -79.3924, -169.581 -80.0056, -169.07 -80.6158, -168.465 -81.2274, -167.771 -81.8378, -166.964 -82.4479, -166.016 -83.0551, -164.887 -83.66, -163.415 -84.2598, -150.867 -83.7739, -137.838 -82.7906, -128.224 -81.5395, -121.157 -80.1211, -115.857 -78.5986, -111.773 -77.0079, -108.538 -75.3709, -105.911 -73.7014, -103.731 -72.0089, -101.886 -70.2983, -100.298 -68.5746, -98.9112 -66.8395, -97.6833 -65.0972, -96.5839 -63.3476, -95.5916 -61.5901, -94.6842 -59.8299, -93.8505 -58.0644, -93.0772 -56.2957, -92.3561 -54.5229, -91.6798 -52.7468, -91.0398 -50.9704, -90.4344 -49.1893, -89.8578 -47.4058, -89.3052 -45.6215, -88.7749 -43.8346, -88.2641 -42.0461, -87.7695 -40.256, -87.2909 -38.4631, -86.8243 -36.6711, -86.3695 -34.8767, -85.9261 -33.079, -85.4906 -31.2822, -85.0631 -29.4839, -84.6426 -27.6844, -84.2283 -25.8835, -83.8191 -24.0817, -83.4143 -22.2792, -83.0132 -20.476, -82.6153 -18.6715, -82.2196 -16.8666, -81.8259 -15.0612, -81.4332 -13.2553, -81.0418 -11.448, -80.6501 -9.64134, -80.2581 -7.83429, -79.8653 -6.02675, -79.4712 -4.21893, -79.0752 -2.41112, -78.677 -0.603252, -78.2756 1.20434, -77.8709 3.01205, -77.4623 4.81933, -77.0486 6.6255, -76.6303 8.43203, -76.2059 10.2385, -75.7754 12.0439, -75.3365 13.8465, -74.8906 15.6508, -74.4361 17.4537, -73.971 19.2543, -73.4959 21.0545, -73.0083 22.8518, -72.5083 24.6493, -71.9943 26.4451, -71.4643 28.2374, -70.9168 30.0279, -70.351 31.8171, -69.7644 33.603, -69.1545 35.3866, -68.5193 37.1667, -67.856 38.9437, -67.161 40.7165, -66.4315 42.4856, -65.6628 44.2497, -64.8499 46.0086, -63.989 47.7634, -63.072 49.5105, -62.092 51.2503, -61.041 52.983, -59.9078 54.7055, -58.6805 56.4172, -57.3455 58.1182, -55.8844 59.8044, -54.2765 61.4738, -52.4957 63.1239, -50.5114 64.75, -48.2848 66.3485, -49.6419 66.6526, -51.0122 66.9528, -52.423 67.2423, -53.8614 67.5184, -55.3354 67.7817, -56.842 68.0313, -58.3781 68.2691, -59.948 68.49, -61.5477 68.6961, -63.1805 68.8833, -64.8359 69.0581, -66.5168 69.2166, -68.2139 69.3579, -69.9264 69.482, -71.6774 69.5904, -73.4336 69.6805, -75.216 69.7534, -77.0084 69.8082, -78.7976 69.8556, -79.0285 68.0798, -79.266 66.3035, -79.5081 64.5262, -79.7548 62.7488, -80.0053 60.9705, -80.2587 59.1913, -80.5172 57.412, -80.7783 55.6318, -81.0414 53.8506, -81.3083 52.0693, -81.5778 50.2869, -81.8487 48.5034, -82.1242 46.7197, -82.4018 44.9352, -82.6818 43.1501, -82.9653 41.3642, -83.2512 39.5774, -83.5402 37.7903, -83.8324 36.002, -84.1276 34.2136, -84.426 32.4242, -84.7286 30.6347, -85.0346 28.8447, -85.3436 27.0538, -85.6568 25.2624, -85.975 23.4714, -86.2966 21.6793, -86.6234 19.8875, -86.954 18.0951, -87.2898 16.3025, -87.6322 14.5108, -87.9789 12.718, -88.3316 10.9255, -88.6903 9.13382, -89.0564 7.34217, -89.4288 5.55067, -89.8084 3.75989, -90.196 1.96984, -90.5914 0.18052, -90.9959 -1.60813, -91.4095 -3.39578, -91.833 -5.18219, -92.267 -6.9671, -92.7121 -8.7507, -93.1687 -10.5331, -93.6386 -12.3134, -94.1219 -14.0917, -94.6198 -15.8679, -95.1332 -17.642, -95.6636 -19.4132, -96.2121 -21.1815, -96.78 -22.947, -97.3688 -24.709, -97.9807 -26.4673, -98.6173 -28.2215, -99.2807 -29.9711, -99.972 -31.717, -100.696 -33.4564, -101.455 -35.19, -102.251 -36.9184, -103.09 -38.6388, -103.973 -40.352, -104.907 -42.0568, -105.897 -43.7518, -106.948 -45.4372, -108.068 -47.1108, -109.265 -48.7701, -110.546 -50.4165, -111.922 -52.0459, -113.406 -53.6565, -115.009 -55.2464, -116.749 -56.8117, -118.641 -58.3508, -120.708 -59.8566, -122.971 -61.3263, -125.455 -62.7542, -128.19 -64.1319, -131.206 -65.4524, -134.536 -66.7052, -138.213 -67.8796, -142.266 -68.9619, -146.717 -69.9374, -151.575 -70.7897, -156.831 -71.5028, -162.447 -72.0589, -168.355 -72.4437, -173.044 -72.6158)))</str>
+<str name="mode">EO</str>
+<str name="platformidentifier">2016-011A</str>
+<str name="orbitdirection">descending</str>
+<str name="pduduration">2657</str>
+<str name="passnumber">28030</str>
+<str name="passdirection">descending</str>
+<str name="procfacilityname">Land OLCI Processing and Archiving Centre [LN1]</str>
+<str name="procfacilityorg">European Space Agency</str>
+<str name="processinglevel">2</str>
+<str name="processingname">Data Processing</str>
+<str name="productlevel">L2</str>
+<str name="producttype">OL_2_LRR___</str>
+<str name="relorbitdir">descending</str>
+<str name="relpassnumber">364</str>
+<str name="relpassdirection">descending</str>
+<str name="platformname">Sentinel-3</str>
+<str name="size">158.18 MB</str>
+<str name="timeliness">Non Time Critical</str>
+<str name="filename">S3A_OL_2_LRR____20181026T150716_20181026T155133_20181027T191551_2657_037_182______LN1_O_NT_002.SEN3</str>
+<str name="onlinequalitycheck">PASSED</str>
+<str name="identifier">S3A_OL_2_LRR____20181026T150716_20181026T155133_20181027T191551_2657_037_182______LN1_O_NT_002</str>
+<str name="uuid">c4a17eb6-20e5-4d07-98c3-73538a3f336e</str>
+</entry>
+<entry>
+<title>S3A_OL_1_ERR____20181026T150716_20181026T155133_20181027T191359_2657_037_182______LN1_O_NT_002</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('c01c09da-86f8-445e-a706-e50d68bc7801')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('c01c09da-86f8-445e-a706-e50d68bc7801')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('c01c09da-86f8-445e-a706-e50d68bc7801')/Products('Quicklook')/$value"/>
+<id>c01c09da-86f8-445e-a706-e50d68bc7801</id>
+<summary>Date: 2018-10-26T15:07:15.759Z, Instrument: OLCI, Mode: , Satellite: Sentinel-3, Size: 721.43 MB</summary>
+<date name="creationdate">2018-10-27T19:13:59Z</date>
+<date name="beginposition">2018-10-26T15:07:15.759Z</date>
+<date name="endposition">2018-10-26T15:51:33.258Z</date>
+<date name="ingestiondate">2018-10-27T19:32:14.142Z</date>
+<int name="orbitnumber">14015</int>
+<int name="relativeorbitnumber">182</int>
+<str name="ecmwf">ANALYSIS</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;-72.6158,-173.044 -73.2349,-172.908 -73.8518,-172.72 -74.4686,-172.517 -75.0851,-172.299 -75.7014,-172.061 -76.3174,-171.803 -76.9313,-171.525 -77.5468,-171.216 -78.1619,-170.875 -78.7786,-170.473 -79.3924,-170.053 -80.0056,-169.581 -80.6158,-169.07 -81.2274,-168.465 -81.8378,-167.771 -82.4479,-166.964 -83.0551,-166.016 -83.66,-164.887 -84.2598,-163.415 -83.7739,-150.867 -82.7906,-137.838 -81.5395,-128.224 -80.1211,-121.157 -78.5986,-115.857 -77.0079,-111.773 -75.3709,-108.538 -73.7014,-105.911 -72.0089,-103.731 -70.2983,-101.886 -68.5746,-100.298 -66.8395,-98.9112 -65.0972,-97.6833 -63.3476,-96.5839 -61.5901,-95.5916 -59.8299,-94.6842 -58.0644,-93.8505 -56.2957,-93.0772 -54.5229,-92.3561 -52.7468,-91.6798 -50.9704,-91.0398 -49.1893,-90.4344 -47.4058,-89.8578 -45.6215,-89.3052 -43.8346,-88.7749 -42.0461,-88.2641 -40.256,-87.7695 -38.4631,-87.2909 -36.6711,-86.8243 -34.8767,-86.3695 -33.079,-85.9261 -31.2822,-85.4906 -29.4839,-85.0631 -27.6844,-84.6426 -25.8835,-84.2283 -24.0817,-83.8191 -22.2792,-83.4143 -20.476,-83.0132 -18.6715,-82.6153 -16.8666,-82.2196 -15.0612,-81.8259 -13.2553,-81.4332 -11.448,-81.0418 -9.64134,-80.6501 -7.83429,-80.2581 -6.02675,-79.8653 -4.21893,-79.4712 -2.41112,-79.0752 -0.603252,-78.677 1.20434,-78.2756 3.01205,-77.8709 4.81933,-77.4623 6.6255,-77.0486 8.43203,-76.6303 10.2385,-76.2059 12.0439,-75.7754 13.8465,-75.3365 15.6508,-74.8906 17.4537,-74.4361 19.2543,-73.971 21.0545,-73.4959 22.8518,-73.0083 24.6493,-72.5083 26.4451,-71.9943 28.2374,-71.4643 30.0279,-70.9168 31.8171,-70.351 33.603,-69.7644 35.3866,-69.1545 37.1667,-68.5193 38.9437,-67.856 40.7165,-67.161 42.4856,-66.4315 44.2497,-65.6628 46.0086,-64.8499 47.7634,-63.989 49.5105,-63.072 51.2503,-62.092 52.983,-61.041 54.7055,-59.9078 56.4172,-58.6805 58.1182,-57.3455 59.8044,-55.8844 61.4738,-54.2765 63.1239,-52.4957 64.75,-50.5114 66.3485,-48.2848 66.6526,-49.6419 66.9528,-51.0122 67.2423,-52.423 67.5184,-53.8614 67.7817,-55.3354 68.0313,-56.842 68.2691,-58.3781 68.49,-59.948 68.6961,-61.5477 68.8833,-63.1805 69.0581,-64.8359 69.2166,-66.5168 69.3579,-68.2139 69.482,-69.9264 69.5904,-71.6774 69.6805,-73.4336 69.7534,-75.216 69.8082,-77.0084 69.8556,-78.7976 68.0798,-79.0285 66.3035,-79.266 64.5262,-79.5081 62.7488,-79.7548 60.9705,-80.0053 59.1913,-80.2587 57.412,-80.5172 55.6318,-80.7783 53.8506,-81.0414 52.0693,-81.3083 50.2869,-81.5778 48.5034,-81.8487 46.7197,-82.1242 44.9352,-82.4018 43.1501,-82.6818 41.3642,-82.9653 39.5774,-83.2512 37.7903,-83.5402 36.002,-83.8324 34.2136,-84.1276 32.4242,-84.426 30.6347,-84.7286 28.8447,-85.0346 27.0538,-85.3436 25.2624,-85.6568 23.4714,-85.975 21.6793,-86.2966 19.8875,-86.6234 18.0951,-86.954 16.3025,-87.2898 14.5108,-87.6322 12.718,-87.9789 10.9255,-88.3316 9.13382,-88.6903 7.34217,-89.0564 5.55067,-89.4288 3.75989,-89.8084 1.96984,-90.196 0.18052,-90.5914 -1.60813,-90.9959 -3.39578,-91.4095 -5.18219,-91.833 -6.9671,-92.267 -8.7507,-92.7121 -10.5331,-93.1687 -12.3134,-93.6386 -14.0917,-94.1219 -15.8679,-94.6198 -17.642,-95.1332 -19.4132,-95.6636 -21.1815,-96.2121 -22.947,-96.78 -24.709,-97.3688 -26.4673,-97.9807 -28.2215,-98.6173 -29.9711,-99.2807 -31.717,-99.972 -33.4564,-100.696 -35.19,-101.455 -36.9184,-102.251 -38.6388,-103.09 -40.352,-103.973 -42.0568,-104.907 -43.7518,-105.897 -45.4372,-106.948 -47.1108,-108.068 -48.7701,-109.265 -50.4165,-110.546 -52.0459,-111.922 -53.6565,-113.406 -55.2464,-115.009 -56.8117,-116.749 -58.3508,-118.641 -59.8566,-120.708 -61.3263,-122.971 -62.7542,-125.455 -64.1319,-128.19 -65.4524,-131.206 -66.7052,-134.536 -67.8796,-138.213 -68.9619,-142.266 -69.9374,-146.717 -70.7897,-151.575 -71.5028,-156.831 -72.0589,-162.447 -72.4437,-168.355 -72.6158,-173.044&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="format">SAFE</str>
+<str name="instrumentshortname">OLCI</str>
+<str name="sensoroperationalmode">Earth Observation</str>
+<str name="instrumentname">Ocean Land Colour Instrument</str>
+<str name="footprint">MULTIPOLYGON (((-173.044 -72.6158, -172.908 -73.2349, -172.72 -73.8518, -172.517 -74.4686, -172.299 -75.0851, -172.061 -75.7014, -171.803 -76.3174, -171.525 -76.9313, -171.216 -77.5468, -170.875 -78.1619, -170.473 -78.7786, -170.053 -79.3924, -169.581 -80.0056, -169.07 -80.6158, -168.465 -81.2274, -167.771 -81.8378, -166.964 -82.4479, -166.016 -83.0551, -164.887 -83.66, -163.415 -84.2598, -150.867 -83.7739, -137.838 -82.7906, -128.224 -81.5395, -121.157 -80.1211, -115.857 -78.5986, -111.773 -77.0079, -108.538 -75.3709, -105.911 -73.7014, -103.731 -72.0089, -101.886 -70.2983, -100.298 -68.5746, -98.9112 -66.8395, -97.6833 -65.0972, -96.5839 -63.3476, -95.5916 -61.5901, -94.6842 -59.8299, -93.8505 -58.0644, -93.0772 -56.2957, -92.3561 -54.5229, -91.6798 -52.7468, -91.0398 -50.9704, -90.4344 -49.1893, -89.8578 -47.4058, -89.3052 -45.6215, -88.7749 -43.8346, -88.2641 -42.0461, -87.7695 -40.256, -87.2909 -38.4631, -86.8243 -36.6711, -86.3695 -34.8767, -85.9261 -33.079, -85.4906 -31.2822, -85.0631 -29.4839, -84.6426 -27.6844, -84.2283 -25.8835, -83.8191 -24.0817, -83.4143 -22.2792, -83.0132 -20.476, -82.6153 -18.6715, -82.2196 -16.8666, -81.8259 -15.0612, -81.4332 -13.2553, -81.0418 -11.448, -80.6501 -9.64134, -80.2581 -7.83429, -79.8653 -6.02675, -79.4712 -4.21893, -79.0752 -2.41112, -78.677 -0.603252, -78.2756 1.20434, -77.8709 3.01205, -77.4623 4.81933, -77.0486 6.6255, -76.6303 8.43203, -76.2059 10.2385, -75.7754 12.0439, -75.3365 13.8465, -74.8906 15.6508, -74.4361 17.4537, -73.971 19.2543, -73.4959 21.0545, -73.0083 22.8518, -72.5083 24.6493, -71.9943 26.4451, -71.4643 28.2374, -70.9168 30.0279, -70.351 31.8171, -69.7644 33.603, -69.1545 35.3866, -68.5193 37.1667, -67.856 38.9437, -67.161 40.7165, -66.4315 42.4856, -65.6628 44.2497, -64.8499 46.0086, -63.989 47.7634, -63.072 49.5105, -62.092 51.2503, -61.041 52.983, -59.9078 54.7055, -58.6805 56.4172, -57.3455 58.1182, -55.8844 59.8044, -54.2765 61.4738, -52.4957 63.1239, -50.5114 64.75, -48.2848 66.3485, -49.6419 66.6526, -51.0122 66.9528, -52.423 67.2423, -53.8614 67.5184, -55.3354 67.7817, -56.842 68.0313, -58.3781 68.2691, -59.948 68.49, -61.5477 68.6961, -63.1805 68.8833, -64.8359 69.0581, -66.5168 69.2166, -68.2139 69.3579, -69.9264 69.482, -71.6774 69.5904, -73.4336 69.6805, -75.216 69.7534, -77.0084 69.8082, -78.7976 69.8556, -79.0285 68.0798, -79.266 66.3035, -79.5081 64.5262, -79.7548 62.7488, -80.0053 60.9705, -80.2587 59.1913, -80.5172 57.412, -80.7783 55.6318, -81.0414 53.8506, -81.3083 52.0693, -81.5778 50.2869, -81.8487 48.5034, -82.1242 46.7197, -82.4018 44.9352, -82.6818 43.1501, -82.9653 41.3642, -83.2512 39.5774, -83.5402 37.7903, -83.8324 36.002, -84.1276 34.2136, -84.426 32.4242, -84.7286 30.6347, -85.0346 28.8447, -85.3436 27.0538, -85.6568 25.2624, -85.975 23.4714, -86.2966 21.6793, -86.6234 19.8875, -86.954 18.0951, -87.2898 16.3025, -87.6322 14.5108, -87.9789 12.718, -88.3316 10.9255, -88.6903 9.13382, -89.0564 7.34217, -89.4288 5.55067, -89.8084 3.75989, -90.196 1.96984, -90.5914 0.18052, -90.9959 -1.60813, -91.4095 -3.39578, -91.833 -5.18219, -92.267 -6.9671, -92.7121 -8.7507, -93.1687 -10.5331, -93.6386 -12.3134, -94.1219 -14.0917, -94.6198 -15.8679, -95.1332 -17.642, -95.6636 -19.4132, -96.2121 -21.1815, -96.78 -22.947, -97.3688 -24.709, -97.9807 -26.4673, -98.6173 -28.2215, -99.2807 -29.9711, -99.972 -31.717, -100.696 -33.4564, -101.455 -35.19, -102.251 -36.9184, -103.09 -38.6388, -103.973 -40.352, -104.907 -42.0568, -105.897 -43.7518, -106.948 -45.4372, -108.068 -47.1108, -109.265 -48.7701, -110.546 -50.4165, -111.922 -52.0459, -113.406 -53.6565, -115.009 -55.2464, -116.749 -56.8117, -118.641 -58.3508, -120.708 -59.8566, -122.971 -61.3263, -125.455 -62.7542, -128.19 -64.1319, -131.206 -65.4524, -134.536 -66.7052, -138.213 -67.8796, -142.266 -68.9619, -146.717 -69.9374, -151.575 -70.7897, -156.831 -71.5028, -162.447 -72.0589, -168.355 -72.4437, -173.044 -72.6158)))</str>
+<str name="mode">EO</str>
+<str name="platformidentifier">2016-011A</str>
+<str name="orbitdirection">descending</str>
+<str name="pduduration">2657</str>
+<str name="passnumber">28030</str>
+<str name="passdirection">descending</str>
+<str name="procfacilityname">Land OLCI Processing and Archiving Centre [LN1]</str>
+<str name="procfacilityorg">European Space Agency</str>
+<str name="processinglevel">1</str>
+<str name="processingname">Data Processing</str>
+<str name="productlevel">L1</str>
+<str name="producttype">OL_1_ERR___</str>
+<str name="relorbitdir">descending</str>
+<str name="relpassnumber">364</str>
+<str name="relpassdirection">descending</str>
+<str name="platformname">Sentinel-3</str>
+<str name="size">721.43 MB</str>
+<str name="timeliness">Non Time Critical</str>
+<str name="filename">S3A_OL_1_ERR____20181026T150716_20181026T155133_20181027T191359_2657_037_182______LN1_O_NT_002.SEN3</str>
+<str name="onlinequalitycheck">PASSED</str>
+<str name="identifier">S3A_OL_1_ERR____20181026T150716_20181026T155133_20181027T191359_2657_037_182______LN1_O_NT_002</str>
+<str name="uuid">c01c09da-86f8-445e-a706-e50d68bc7801</str>
+</entry>
+<entry>
+<title>S3A_OL_1_ERR____20181027T144112_20181027T152528_20181027T165445_2656_037_196______SVL_O_NR_002</title>
+<link href="https://scihub.copernicus.eu/dhus/odata/v1/Products('7e23b266-0880-4ae2-a929-b539450393f6')/$value"/>
+<link rel="alternative" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('7e23b266-0880-4ae2-a929-b539450393f6')/"/>
+<link rel="icon" href="https://scihub.copernicus.eu/dhus/odata/v1/Products('7e23b266-0880-4ae2-a929-b539450393f6')/Products('Quicklook')/$value"/>
+<id>7e23b266-0880-4ae2-a929-b539450393f6</id>
+<summary>Date: 2018-10-27T14:41:11.836Z, Instrument: OLCI, Mode: , Satellite: Sentinel-3, Size: 727.01 MB</summary>
+<date name="creationdate">2018-10-27T16:54:45Z</date>
+<date name="beginposition">2018-10-27T14:41:11.836Z</date>
+<date name="endposition">2018-10-27T15:25:28.3Z</date>
+<date name="ingestiondate">2018-10-27T17:24:52.693Z</date>
+<int name="orbitnumber">14029</int>
+<int name="relativeorbitnumber">196</int>
+<str name="ecmwf">FORECAST</str>
+<str name="gmlfootprint">&lt;gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" xmlns:gml="http://www.opengis.net/gml"&gt;
+   &lt;gml:outerBoundaryIs&gt;
+      &lt;gml:LinearRing&gt;
+         &lt;gml:coordinates&gt;-72.6423,-167.705 -73.2621,-167.612 -73.88,-167.47 -74.4979,-167.318 -75.1156,-167.152 -75.7331,-166.973 -76.3505,-166.778 -76.9658,-166.569 -77.583,-166.335 -78.1998,-166.078 -78.8187,-165.768 -79.4347,-165.449 -80.0504,-165.092 -80.6633,-164.709 -81.278,-164.25 -81.8921,-163.722 -82.5065,-163.107 -83.1186,-162.382 -83.7295,-161.516 -84.337,-160.355 -83.9444,-147.773 -83.0398,-133.897 -81.8385,-123.584 -80.451,-116.021 -78.9478,-110.381 -77.3701,-106.06 -75.7426,-102.659 -74.0795,-99.9124 -72.3912,-97.6429 -70.6847,-95.7298 -68.9635,-94.0899 -67.2312,-92.6613 -65.49,-91.4012 -63.7409,-90.2765 -61.9864,-89.2605 -60.2266,-88.3357 -58.4621,-87.4865 -56.694,-86.7003 -54.9221,-85.9685 -53.1475,-85.2824 -51.3702,-84.6352 -49.5901,-84.0224 -47.8079,-83.4391 -46.0235,-82.8817 -44.2372,-82.3466 -42.4487,-81.832 -40.6592,-81.3339 -38.8676,-80.8514 -37.0752,-80.3823 -35.2801,-79.9256 -33.4842,-79.4794 -31.6877,-79.0418 -29.8886,-78.6132 -28.0898,-78.1911 -26.2896,-77.7752 -24.4872,-77.3655 -22.6855,-76.9594 -20.8824,-76.5574 -19.0781,-76.159 -17.2737,-75.7627 -15.4678,-75.3689 -13.6617,-74.9762 -11.856,-74.5841 -10.0489,-74.1924 -8.24074,-73.8012 -6.43415,-73.4083 -4.62605,-73.0146 -2.8187,-72.619 -1.01135,-72.2209 0.797235,-71.8208 2.60468,-71.4168 4.41171,-71.0089 6.21892,-70.5968 8.02558,-70.1796 9.83101,-69.7564 11.6364,-69.3271 13.4409,-68.8907 15.2445,-68.4464 17.0474,-67.9937 18.8493,-67.5315 20.6479,-67.0579 22.4468,-66.5735 24.2451,-66.0769 26.0402,-65.5659 27.8334,-65.0394 29.6254,-64.4965 31.4141,-63.9348 33.201,-63.3531 34.9849,-62.7486 36.7655,-62.1191 38.5436,-61.4625 40.3175,-60.7751 42.0872,-60.0534 43.8533,-59.2944 45.6134,-58.4918 47.3686,-57.6423 49.117,-56.7382 50.8589,-55.7731 52.5939,-54.7393 54.3182,-53.6251 56.033,-52.4205 57.737,-51.1117 59.4255,-49.6799 61.0996,-48.1072 62.7541,-46.3681 64.3859,-44.4323 65.9925,-42.2642 66.2956,-43.6225 66.5913,-44.9767 66.875,-46.3632 67.147,-47.7831 67.406,-49.2354 67.6522,-50.722 67.8867,-52.2369 68.1047,-53.7838 68.3079,-55.3591 68.4926,-56.966 68.665,-58.5943 68.8216,-60.2468 68.9616,-61.9206 69.0852,-63.6154 69.192,-65.3282 69.2814,-67.053 69.3534,-68.7902 69.4078,-70.5313 69.4562,-72.3053 67.6795,-72.5357 65.9033,-72.7748 64.1262,-73.018 62.3479,-73.2649 60.5703,-73.5178 58.7908,-73.7716 57.011,-74.0301 55.2309,-74.2924 53.4493,-74.5556 51.6676,-74.823 49.885,-75.0933 48.1016,-75.3655 46.3184,-75.6414 44.5331,-75.9189 42.7475,-76.2001 40.9616,-76.4839 39.1745,-76.7703 37.3874,-77.0603 35.5994,-77.3532 33.8102,-77.6491 32.0212,-77.9488 30.2312,-78.2514 28.441,-78.5583 26.6503,-78.8687 24.8587,-79.1824 23.067,-79.5008 21.276,-79.8246 19.4837,-80.1518 17.691,-80.4839 15.8988,-80.8212 14.1063,-81.1638 12.3137,-81.5121 10.5222,-81.8665 8.73016,-82.2269 6.93798,-82.5938 5.14713,-82.968 3.35657,-83.3496 1.56618,-83.7383 -0.222823,-84.1361 -2.01104,-84.5428 -3.79841,-84.9583 -5.58419,-85.3846 -7.36977,-85.8203 -9.1527,-86.268 -10.9337,-86.728 -12.7143,-87.2007 -14.4925,-87.6869 -16.2678,-88.1884 -18.0413,-88.7054 -19.8121,-89.2398 -21.579,-89.7928 -23.3446,-90.3648 -25.1055,-90.959 -26.8626,-91.5764 -28.6164,-92.2181 -30.3647,-92.888 -32.1089,-93.5869 -33.8476,-94.3182 -35.5803,-95.0853 -37.306,-95.8906 -39.025,-96.7389 -40.737,-97.6332 -42.4394,-98.5793 -44.1324,-99.5823 -45.8151,-100.649 -47.4855,-101.785 -49.1422,-102.999 -50.7848,-104.301 -52.4104,-105.7 -54.0163,-107.21 -55.6011,-108.843 -57.1608,-110.615 -58.692,-112.545 -60.1909,-114.653 -61.6519,-116.963 -63.0687,-119.501 -64.4347,-122.296 -65.7405,-125.381 -66.9771,-128.786 -68.1318,-132.545 -69.1911,-136.685 -70.1403,-141.228 -70.9631,-146.177 -71.6424,-151.519 -72.1611,-157.207 -72.5057,-163.169 -72.6423,-167.705&lt;/gml:coordinates&gt;
+      &lt;/gml:LinearRing&gt;
+   &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;</str>
+<str name="format">SAFE</str>
+<str name="instrumentshortname">OLCI</str>
+<str name="sensoroperationalmode">Earth Observation</str>
+<str name="instrumentname">Ocean Land Colour Instrument</str>
+<str name="footprint">MULTIPOLYGON (((-167.705 -72.6423, -167.612 -73.2621, -167.47 -73.88, -167.318 -74.4979, -167.152 -75.1156, -166.973 -75.7331, -166.778 -76.3505, -166.569 -76.9658, -166.335 -77.583, -166.078 -78.1998, -165.768 -78.8187, -165.449 -79.4347, -165.092 -80.0504, -164.709 -80.6633, -164.25 -81.278, -163.722 -81.8921, -163.107 -82.5065, -162.382 -83.1186, -161.516 -83.7295, -160.355 -84.337, -147.773 -83.9444, -133.897 -83.0398, -123.584 -81.8385, -116.021 -80.451, -110.381 -78.9478, -106.06 -77.3701, -102.659 -75.7426, -99.9124 -74.0795, -97.6429 -72.3912, -95.7298 -70.6847, -94.0899 -68.9635, -92.6613 -67.2312, -91.4012 -65.49, -90.2765 -63.7409, -89.2605 -61.9864, -88.3357 -60.2266, -87.4865 -58.4621, -86.7003 -56.694, -85.9685 -54.9221, -85.2824 -53.1475, -84.6352 -51.3702, -84.0224 -49.5901, -83.4391 -47.8079, -82.8817 -46.0235, -82.3466 -44.2372, -81.832 -42.4487, -81.3339 -40.6592, -80.8514 -38.8676, -80.3823 -37.0752, -79.9256 -35.2801, -79.4794 -33.4842, -79.0418 -31.6877, -78.6132 -29.8886, -78.1911 -28.0898, -77.7752 -26.2896, -77.3655 -24.4872, -76.9594 -22.6855, -76.5574 -20.8824, -76.159 -19.0781, -75.7627 -17.2737, -75.3689 -15.4678, -74.9762 -13.6617, -74.5841 -11.856, -74.1924 -10.0489, -73.8012 -8.24074, -73.4083 -6.43415, -73.0146 -4.62605, -72.619 -2.8187, -72.2209 -1.01135, -71.8208 0.797235, -71.4168 2.60468, -71.0089 4.41171, -70.5968 6.21892, -70.1796 8.02558, -69.7564 9.83101, -69.3271 11.6364, -68.8907 13.4409, -68.4464 15.2445, -67.9937 17.0474, -67.5315 18.8493, -67.0579 20.6479, -66.5735 22.4468, -66.0769 24.2451, -65.5659 26.0402, -65.0394 27.8334, -64.4965 29.6254, -63.9348 31.4141, -63.3531 33.201, -62.7486 34.9849, -62.1191 36.7655, -61.4625 38.5436, -60.7751 40.3175, -60.0534 42.0872, -59.2944 43.8533, -58.4918 45.6134, -57.6423 47.3686, -56.7382 49.117, -55.7731 50.8589, -54.7393 52.5939, -53.6251 54.3182, -52.4205 56.033, -51.1117 57.737, -49.6799 59.4255, -48.1072 61.0996, -46.3681 62.7541, -44.4323 64.3859, -42.2642 65.9925, -43.6225 66.2956, -44.9767 66.5913, -46.3632 66.875, -47.7831 67.147, -49.2354 67.406, -50.722 67.6522, -52.2369 67.8867, -53.7838 68.1047, -55.3591 68.3079, -56.966 68.4926, -58.5943 68.665, -60.2468 68.8216, -61.9206 68.9616, -63.6154 69.0852, -65.3282 69.192, -67.053 69.2814, -68.7902 69.3534, -70.5313 69.4078, -72.3053 69.4562, -72.5357 67.6795, -72.7748 65.9033, -73.018 64.1262, -73.2649 62.3479, -73.5178 60.5703, -73.7716 58.7908, -74.0301 57.011, -74.2924 55.2309, -74.5556 53.4493, -74.823 51.6676, -75.0933 49.885, -75.3655 48.1016, -75.6414 46.3184, -75.9189 44.5331, -76.2001 42.7475, -76.4839 40.9616, -76.7703 39.1745, -77.0603 37.3874, -77.3532 35.5994, -77.6491 33.8102, -77.9488 32.0212, -78.2514 30.2312, -78.5583 28.441, -78.8687 26.6503, -79.1824 24.8587, -79.5008 23.067, -79.8246 21.276, -80.1518 19.4837, -80.4839 17.691, -80.8212 15.8988, -81.1638 14.1063, -81.5121 12.3137, -81.8665 10.5222, -82.2269 8.73016, -82.5938 6.93798, -82.968 5.14713, -83.3496 3.35657, -83.7383 1.56618, -84.1361 -0.222823, -84.5428 -2.01104, -84.9583 -3.79841, -85.3846 -5.58419, -85.8203 -7.36977, -86.268 -9.1527, -86.728 -10.9337, -87.2007 -12.7143, -87.6869 -14.4925, -88.1884 -16.2678, -88.7054 -18.0413, -89.2398 -19.8121, -89.7928 -21.579, -90.3648 -23.3446, -90.959 -25.1055, -91.5764 -26.8626, -92.2181 -28.6164, -92.888 -30.3647, -93.5869 -32.1089, -94.3182 -33.8476, -95.0853 -35.5803, -95.8906 -37.306, -96.7389 -39.025, -97.6332 -40.737, -98.5793 -42.4394, -99.5823 -44.1324, -100.649 -45.8151, -101.785 -47.4855, -102.999 -49.1422, -104.301 -50.7848, -105.7 -52.4104, -107.21 -54.0163, -108.843 -55.6011, -110.615 -57.1608, -112.545 -58.692, -114.653 -60.1909, -116.963 -61.6519, -119.501 -63.0687, -122.296 -64.4347, -125.381 -65.7405, -128.786 -66.9771, -132.545 -68.1318, -136.685 -69.1911, -141.228 -70.1403, -146.177 -70.9631, -151.519 -71.6424, -157.207 -72.1611, -163.169 -72.5057, -167.705 -72.6423)))</str>
+<str name="mode">EO</str>
+<str name="platformidentifier">2016-011A</str>
+<str name="orbitdirection">descending</str>
+<str name="pduduration">2656</str>
+<str name="passnumber">28058</str>
+<str name="passdirection">descending</str>
+<str name="procfacilityname">Svalbard Satellite Core Ground Station [SVL]</str>
+<str name="procfacilityorg">European Space Agency</str>
+<str name="processinglevel">1</str>
+<str name="processingname">Data Processing</str>
+<str name="productlevel">L1</str>
+<str name="producttype">OL_1_ERR___</str>
+<str name="relorbitdir">descending</str>
+<str name="relpassnumber">392</str>
+<str name="relpassdirection">descending</str>
+<str name="platformname">Sentinel-3</str>
+<str name="size">727.01 MB</str>
+<str name="timeliness">Near Real Time</str>
+<str name="filename">S3A_OL_1_ERR____20181027T144112_20181027T152528_20181027T165445_2656_037_196______SVL_O_NR_002.SEN3</str>
+<str name="onlinequalitycheck">PASSED</str>
+<str name="identifier">S3A_OL_1_ERR____20181027T144112_20181027T152528_20181027T165445_2656_037_196______SVL_O_NR_002</str>
+<str name="uuid">7e23b266-0880-4ae2-a929-b539450393f6</str>
+</entry>
+</feed>
+
