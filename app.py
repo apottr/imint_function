@@ -1,5 +1,6 @@
 from flask import Flask,render_template,jsonify,request
-from satimg.satimg import get_satimg as satimg 
+from satimg import get_satimg as satimg
+import json
 app = Flask(__name__)
 
 @app.route("/")
@@ -8,7 +9,7 @@ def page():
 
 @app.route("/data", methods=["POST"])
 def data():
-    bbox = request.form["box"]
+    bbox = json.loads(request.form["box"])
     o = satimg(bbox)
     return jsonify(o)
 

@@ -1,21 +1,41 @@
 <html>
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+        <script src="https://unpkg.com/leaflet-imageoverlay-rotated@0.1.3/Leaflet.ImageOverlay.Rotated.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wicket/1.3.3/wicket.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css">
     </head>
     <body>
-        <div id="map" width="100%" height="100%"></div>
+        <div id="map" style="width: 100%; height: 100%;"></div>
     </body>
     <script>
-        var map = L.map('map').setView([-98.58,39.83], 5);
-
+        var map = L.map('map').setView([42,-71], 2);
+        var wkt = new Wkt.Wkt()
+        var formData = new FormData()
+        var geoLayer = L.geoJSON(null,{
+            onEachFeature: (f,l) => {
+                console.log(f)
+                l.bindPopup(`<div>${f.properties.date}<img src="${f.properties.img}"></img></div>`)
+            }
+        }).addTo(map)
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
-        fetch("/data").then(r => r.json())
-        .then(r => {
-            r.data.map(el => {
-                L.marker([el.lat,el.lon]).addTo(map)
+        formData.append('box',JSON.stringify({"nw": [-71.30126953125,42.53486817758702], "se": [-70.7958984375,42.204107493733176] }))
+        fetch("/data",{
+            method: "POST",
+            cache: "no-cache",
+            body: formData
+        }).then(r => r.json())
+        .then(j => {
+            j.data.forEach(element => {
+                wkt.read(element.footprint)
+                let d = wkt.toJson()
+                d.properties = {
+                    date: element.date,
+                    img: element.img
+                }
+                geoLayer.addData(d)
             })
         })
     </script>
