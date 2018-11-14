@@ -7,4 +7,4 @@ def get_satimg(bbox):
     k = kari(bbox)
     s = scihub(bbox)
     l = landsat(bbox)
-    return {"data": k+s+l}
+    return k+s+l

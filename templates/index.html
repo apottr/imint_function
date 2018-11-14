@@ -15,7 +15,7 @@
         var geoLayer = L.geoJSON(null,{
             onEachFeature: (f,l) => {
                 console.log(f)
-                l.bindPopup(`<div>${f.properties.date}<img src="${f.properties.img}"></img></div>`)
+                l.bindPopup(`<div>${f.properties.date}<img src="http://localhost:5000/img/${f.properties.img}"></img></div>`)
             }
         }).addTo(map)
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
