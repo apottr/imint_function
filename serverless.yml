@@ -1,0 +1,26 @@
+service: imintFunction
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  imintFunction:
+    handler: imintfunction.handler
+
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+
+package:
+  exclude:
+    - '**/*'
+    - '*'
+  include:
+    - camimg/**
+    - satimg/**
+    - imintfunction.py
